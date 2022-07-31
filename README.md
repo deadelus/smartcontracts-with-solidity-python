@@ -12,6 +12,13 @@ Same as PyTest
 Test step by step for debug in python shell
 ``` brownie test --pdb ```
 ``` brownie test -s ```
+### Test workflow
+1. Brownie Ganache chain + mocks
+2. Testnet for Integration testing
+3. Brownie Mainnet fork (optional)
+4. Custom Mainnet fork (optional)
+5. Self/Local Ganache : Not necessary but good for thinkering
+
 
 ## Network
 Show all network available
