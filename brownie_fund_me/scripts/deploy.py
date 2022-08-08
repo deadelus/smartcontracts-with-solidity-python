@@ -1,7 +1,7 @@
 from web3 import Web3
 from brownie import network, config
 from brownie import FundMe, MockV3Aggregator
-from scripts.helpful import get_account, deploy_mocks, LOCAL_BLOCKCHAIN_ENVIRONMENTS
+from scripts.helpful_scripts import get_account, deploy_mocks, LOCAL_BLOCKCHAIN_ENVIRONMENTS
 from web3 import Web3
 
 def deploy_fund_me():

@@ -1,6 +1,6 @@
 import pytest
 from brownie import network, accounts, exceptions
-from scripts.helpful import get_account, LOCAL_BLOCKCHAIN_ENVIRONMENTS
+from scripts.helpful_scripts import get_account, LOCAL_BLOCKCHAIN_ENVIRONMENTS
 from scripts.deploy import deploy_fund_me
 
 def test_can_fund_and_withdraw():
